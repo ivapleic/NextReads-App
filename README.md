@@ -1,48 +1,46 @@
-# Semester Project <!-- omit in toc -->
+<div align="center">
 
-- [Project Structure](#project-structure)
-- [My Project Links](#my-project-links)
-  - [Semester Project](#semester-project)
-  - [Semester Assignments](#semester-assignments)
-- [Project Requirements](#project-requirements)
-  - [Web Application Requirements](#web-application-requirements)
-  - [Project Demonstration](#project-demonstration)
+<img src="next-reads/public/assets/Logo.png" alt="NextReads logo" width="120" />
 
-## Project Structure
+# NextReads
 
-- **`/`**: The source code of your main project
-- **`/assignments`**: Results of your semester assignments
-- **`/docs`**: If using GitHub for documentation (e.g., your final report in Markdown format)
+**Search, discover and organize your books.**
 
-## My Project Links
+[**🌐 Live Demo**](https://hci-project-three.vercel.app/) · [**📄 Final Report**](https://app.notion.com/p/NextReads-Search-discover-and-organize-your-books-2610424e489a80b7b89dcde756d059a2?source=copy_link)
 
-### Semester Project
+</div>
 
-- Link to your production version: [**Production Version**](https://hci-project-three.vercel.app/) 
-- Link to your final report: [**Final Report**](https://www.notion.so/NextReads-Search-discover-and-organize-your-books-2610424e489a80b7b89dcde756d059a2?source=copy_link)
-<!-- Add more as necessary -->
+---
 
-### Semester Assignments
+## 📖 About
 
-- Link to Assignment 1: [**Assignment 1**](https://github.com/ivapleic/HCI/tree/main/assignments/Assignment%201)
-- Link to Assignment 2: [**Assignment 2**](https://github.com/ivapleic/HCI/tree/main/assignments/Assignment%202) 
-- Link to Assignment 4: [**Assignment 4**](https://github.com/ivapleic/HCI/tree/main/assignments/Assignment%204)
-<!-- Add more assignments as necessary -->
+NextReads is a Goodreads-inspired web app for searching books, creating a reader profile and saving your favourites to a personal bookshelf.
 
-## Project Requirements
+## 🏗️ Architecture
 
-### Web Application Requirements
+```mermaid
+flowchart LR
+    U["👤 User<br/>(browser)"] <--> V["▲ Vercel<br/>NextReads (Next.js)"]
+    V <--> C["📦 Contentful<br/>(data / CMS)"]
+```
 
-- [✓] The application will be used from a web browser
-- [✓] It will be accessible on devices of different sizes
-- [✓] Users can search/filter products or services
-- [✓] The application will support user login for showing private content
-- [✓] One of the public pages will be a blog containing multiple posts with diverse content (images, videos, code snippets)
-- [✓] Part of the application's content will be stored in a remote headless CMS system
+- **Vercel** — hosts the app
+- **Contentful** — stores all the data (books, authors, genres, lists, series, users)
 
-### Project Demonstration
+## 📸 Screenshots
 
-- [✓] Show the production version of the project
-- [✓] The production version will be deployed online on an appropriate cloud platform ([Vercel](https://vercel.com), [Netlify](https://www.netlify.com/) or a similar service)
-- [✓] Analyze the application's performance ([PageSpeed Insights](https://pagespeed.web.dev/))
-- [✓] The analysis results will be part of the final report
+| Home page | Book details |
+| :---: | :---: |
+| ![Home page](docs/screenshots/home_page_FINAL.png) | ![Book details](docs/screenshots/bookdetails.png) |
+
+| Genres | My Books |
+| :---: | :---: |
+| ![Genres page](docs/screenshots/genres%20pageeeee.png) | ![My Books bookshelf](docs/screenshots/bookshelves.png) |
+
+| Lists | Information architecture |
+| :---: | :---: |
+| ![Lists page](docs/screenshots/ListsPage.png) | ![Information architecture](docs/screenshots/inf%20arh.png) |
+
+## 🛠️ Built With
+
+Next.js · React · TypeScript · Tailwind CSS · Contentful · Vercel
