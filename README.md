@@ -6,19 +6,17 @@
 
 **Search, discover and organize your books.**
 
-[🌐 Live Demo](https://hci-project-three.vercel.app/) · [📄 Final Report](https://app.notion.com/p/NextReads-Search-discover-and-organize-your-books-2610424e489a80b7b89dcde756d059a2?source=copy_link)
-
 </div>
 
 <br />
 
-## 📖 About
+## About
 
 NextReads is a Goodreads-inspired web app for searching books, creating a reader profile and saving your favourites to a personal bookshelf.
 
 <br />
 
-## 🏗️ Architecture
+## Architecture
 
 <p align="center">
   <img src="docs/screenshots/architecture.png" alt="Architecture diagram" width="650" />
@@ -29,7 +27,7 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 
 <br />
 
-## 🗺️ Information Architecture
+## Pages
 
 <p align="center">
   <img src="docs/screenshots/inf%20arh.png" alt="Information architecture" width="750" />
@@ -37,11 +35,11 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 
 <br />
 
-## 📸 Screenshots
+## Screenshots
 
 <br />
 
-### 🏠 Home page
+### Home page
 
 <p align="center">
   <img src="docs/screenshots/home_page_FINAL.png" alt="Home page" width="850" />
@@ -49,7 +47,7 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 
 <br />
 
-### 📚 Browse by Genre
+### Browsing by Genre
 
 <p align="center">
   <img src="docs/screenshots/genres%20pageeeee.png" alt="Genres page" width="850" />
@@ -57,7 +55,7 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 
 <br />
 
-### 📖 Book Details
+### Book Details
 
 <p align="center">
   <img src="docs/screenshots/bookdetails.png" alt="Book details page" width="850" />
@@ -65,7 +63,7 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 
 <br />
 
-### 🗂️ Lists
+### Lists
 
 <p align="center">
   <img src="docs/screenshots/ListsPage.png" alt="Lists page" width="850" />
@@ -73,7 +71,7 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 
 <br />
 
-### 🔖 My Books
+### My Books
 
 <p align="center">
   <img src="docs/screenshots/bookshelves.png" alt="My Books bookshelf" width="850" />
@@ -81,6 +79,6 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 
 <br />
 
-## 🛠️ Built With
+## Technologies
 
 Next.js · React · TypeScript · Tailwind CSS · Contentful · Vercel
