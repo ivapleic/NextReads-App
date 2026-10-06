@@ -19,7 +19,7 @@ NextReads is a Goodreads-inspired web app for searching books, creating a reader
 ## Architecture
 
 <p align="center">
-  <img src="docs/screenshots/architecture.png" alt="Architecture diagram" width="650" />
+  <img src="docs/screenshots/arhitecture.png" alt="Architecture diagram" width="650" />
 </p>
 
 - **Vercel** — hosts the app
