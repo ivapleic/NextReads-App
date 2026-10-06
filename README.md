@@ -6,40 +6,80 @@
 
 **Search, discover and organize your books.**
 
-[**🌐 Live Demo**](https://hci-project-three.vercel.app/) · [**📄 Final Report**](https://app.notion.com/p/NextReads-Search-discover-and-organize-your-books-2610424e489a80b7b89dcde756d059a2?source=copy_link)
+[🌐 Live Demo](https://hci-project-three.vercel.app/) · [📄 Final Report](https://app.notion.com/p/NextReads-Search-discover-and-organize-your-books-2610424e489a80b7b89dcde756d059a2?source=copy_link)
 
 </div>
 
----
+<br />
 
 ## 📖 About
 
 NextReads is a Goodreads-inspired web app for searching books, creating a reader profile and saving your favourites to a personal bookshelf.
 
+<br />
+
 ## 🏗️ Architecture
 
-```mermaid
-flowchart LR
-    U["👤 User<br/>(browser)"] <--> V["▲ Vercel<br/>NextReads (Next.js)"]
-    V <--> C["📦 Contentful<br/>(data / CMS)"]
-```
+<p align="center">
+  <img src="docs/screenshots/architecture.png" alt="Architecture diagram" width="650" />
+</p>
 
 - **Vercel** — hosts the app
 - **Contentful** — stores all the data (books, authors, genres, lists, series, users)
 
+<br />
+
+## 🗺️ Information Architecture
+
+<p align="center">
+  <img src="docs/screenshots/inf%20arh.png" alt="Information architecture" width="750" />
+</p>
+
+<br />
+
 ## 📸 Screenshots
 
-| Home page | Book details |
-| :---: | :---: |
-| ![Home page](docs/screenshots/home_page_FINAL.png) | ![Book details](docs/screenshots/bookdetails.png) |
+<br />
 
-| Genres | My Books |
-| :---: | :---: |
-| ![Genres page](docs/screenshots/genres%20pageeeee.png) | ![My Books bookshelf](docs/screenshots/bookshelves.png) |
+### 🏠 Home page
 
-| Lists | Information architecture |
-| :---: | :---: |
-| ![Lists page](docs/screenshots/ListsPage.png) | ![Information architecture](docs/screenshots/inf%20arh.png) |
+<p align="center">
+  <img src="docs/screenshots/home_page_FINAL.png" alt="Home page" width="850" />
+</p>
+
+<br />
+
+### 📚 Browse by Genre
+
+<p align="center">
+  <img src="docs/screenshots/genres%20pageeeee.png" alt="Genres page" width="850" />
+</p>
+
+<br />
+
+### 📖 Book Details
+
+<p align="center">
+  <img src="docs/screenshots/bookdetails.png" alt="Book details page" width="850" />
+</p>
+
+<br />
+
+### 🗂️ Lists
+
+<p align="center">
+  <img src="docs/screenshots/ListsPage.png" alt="Lists page" width="850" />
+</p>
+
+<br />
+
+### 🔖 My Books
+
+<p align="center">
+  <img src="docs/screenshots/bookshelves.png" alt="My Books bookshelf" width="850" />
+</p>
+
+<br />
 
 ## 🛠️ Built With
 
